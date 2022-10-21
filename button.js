@@ -152,9 +152,5 @@ buttonVizualizar.onclick = function (e) {
 
 }
 button_menu.onclick = function (e) {
-    e.preventDefault();
-    vizualizar.style.top = "1900px"
-    box.style.right = "0px"
-    box.style.width =" 380px";
-    menu.style.top = "0px";
+     window.location.href = ("./index.html")
 }
